@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
         Move(); 
         Jump();
         Attack();
+        HandleJumping();
     }
 
     void Move() { 
@@ -43,14 +44,33 @@ public class Player : MonoBehaviour
         } else if (h > 0.0) {
             transform.localScale = new Vector3(1, 1, 1);  
         }
+
+          if (moveBy < 0 && isGrounded || speed > 0 && isGrounded){
+        thisAnim.SetInteger("State", 2);
+        } 
+
+        if (speed == 0 && isGrounded){
+        thisAnim.SetInteger("State", 0);
+        }
     }
 
     void Jump() {
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded) {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             thisAnim.SetTrigger("Jump");
-            Debug.Log("Jump");
-        } 
+            Debug.Log("Jump true");
+        }
+    }
+
+    void HandleJumping() {
+        if (!isGrounded) {
+       if (rb.velocity.y > 0) {
+                thisAnim.SetInteger("State",3);
+            } else {
+                thisAnim.SetInteger("State",1);
+            }
+
+        }
     }
 
     private void Attack() {
