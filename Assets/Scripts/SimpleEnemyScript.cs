@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SimpleEnemyScript : MonoBehaviour {
 
-	public float velocity = 0.0f;
+	public float velocity = 1f;
 
     Rigidbody2D rb;
 	public Transform sightStart;
@@ -16,9 +16,6 @@ public class SimpleEnemyScript : MonoBehaviour {
 	public bool colliding;
 
 	Animator anim;
-
-
-
 
 	// Use this for initialization
 	void Start () {
@@ -36,13 +33,18 @@ public class SimpleEnemyScript : MonoBehaviour {
 		colliding = Physics2D.Linecast(sightStart.position, sightEnd.position, detectWhat);
 
 		if (colliding) {
-					
+				
 			transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
-			velocity *= -1;
+			rb.velocity *= -1;
 
-				}
+				} 
+	}
 
-        Debug.Log("velocity: " + velocity);       
+    void OnDrawGizmos()
+	{
+		Gizmos.color = Color.magenta;
+
+		Gizmos.DrawLine (sightStart.position, sightEnd.position);
 	}
 
 	void OnCollisionEnter2D(Collision2D col)
@@ -69,6 +71,7 @@ public class SimpleEnemyScript : MonoBehaviour {
 	{
 		anim.SetBool ("stomped", true);
 		Destroy (this.gameObject, 0.5f);
+        velocity=0;
 		gameObject.tag = "neutralized";
 		}
 
