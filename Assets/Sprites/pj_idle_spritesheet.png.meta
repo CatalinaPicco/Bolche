@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 3568638726915637556
     second: pj_idle_spritesheet_3
+  - first:
+      213: -2559195146583692358
+    second: pj_idle_spritesheet_0
+  - first:
+      213: 7109864169686438400
+    second: pj_idle_spritesheet_1
+  - first:
+      213: 1846890794900679148
+    second: pj_idle_spritesheet_2
+  - first:
+      213: 7032067183178466291
+    second: pj_idle_spritesheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -57,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,8 +128,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 512
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3424cfc6ab80e9700800000000000000
-      internalID: 548885801371189827
+      spriteID: abba9f8c299eb7cd0800000000000000
+      internalID: -2559195146583692358
       vertices: []
       indices: 
       edges: []
@@ -135,10 +147,10 @@ TextureImporter:
       name: pj_idle_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 512
+        x: 100
         y: 0
-        width: 512
-        height: 512
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2413f2f0cd9c7c510800000000000000
-      internalID: 1569444942146646338
+      spriteID: 002107beacf4ba260800000000000000
+      internalID: 7109864169686438400
       vertices: []
       indices: 
       edges: []
@@ -156,10 +168,10 @@ TextureImporter:
       name: pj_idle_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 200
         y: 0
-        width: 512
-        height: 512
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 307a0f6ec52962f20800000000000000
-      internalID: 3397563896606795523
+      spriteID: ce96ef8846971a910800000000000000
+      internalID: 1846890794900679148
       vertices: []
       indices: 
       edges: []
@@ -177,10 +189,10 @@ TextureImporter:
       name: pj_idle_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 300
         y: 0
-        width: 512
-        height: 512
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4314281c30a568130800000000000000
-      internalID: 3568638726915637556
+      spriteID: 3f3c80a78dbe69160800000000000000
+      internalID: 7032067183178466291
       vertices: []
       indices: 
       edges: []
