@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: -6156052093348746357
     second: pj_walk_spritesheet_3
+  - first:
+      213: 4477883490185330559
+    second: pj_walk_spritesheet_0
+  - first:
+      213: -1795215630664701577
+    second: pj_walk_spritesheet_1
+  - first:
+      213: -8991207757963585369
+    second: pj_walk_spritesheet_2
+  - first:
+      213: -1939788034860859978
+    second: pj_walk_spritesheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -57,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,8 +128,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 512
-        height: 512
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 682acf17c78eb1c30800000000000000
-      internalID: 4331311087832834694
+      spriteID: f7f351a3f43a42e30800000000000000
+      internalID: 4477883490185330559
       vertices: []
       indices: 
       edges: []
@@ -135,10 +147,10 @@ TextureImporter:
       name: pj_walk_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 512
+        x: 100
         y: 0
-        width: 512
-        height: 512
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6977c5b3ab9a4a50800000000000000
-      internalID: 6506183739121826155
+      spriteID: 779600735ec1617e0800000000000000
+      internalID: -1795215630664701577
       vertices: []
       indices: 
       edges: []
@@ -156,10 +168,10 @@ TextureImporter:
       name: pj_walk_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 200
         y: 0
-        width: 512
-        height: 512
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 326e2c6eb1c615af0800000000000000
-      internalID: -409427224022555101
+      spriteID: 7a818dc7e20d83380800000000000000
+      internalID: -8991207757963585369
       vertices: []
       indices: 
       edges: []
@@ -177,10 +189,10 @@ TextureImporter:
       name: pj_walk_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 300
         y: 0
-        width: 512
-        height: 512
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8be52dbc3f419aa0800000000000000
-      internalID: -6156052093348746357
+      spriteID: 6bdb09a4f0d7415e0800000000000000
+      internalID: -1939788034860859978
       vertices: []
       indices: 
       edges: []

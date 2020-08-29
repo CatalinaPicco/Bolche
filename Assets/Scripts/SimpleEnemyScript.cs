@@ -40,12 +40,12 @@ public class SimpleEnemyScript : MonoBehaviour {
 				} 
 	}
 
-    void OnDrawGizmos()
+ /*     void OnDrawGizmos()
 	{
 		Gizmos.color = Color.magenta;
 
 		Gizmos.DrawLine (sightStart.position, sightEnd.position);
-	}
+	}  */
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
